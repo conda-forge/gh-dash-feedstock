@@ -1,5 +1,5 @@
 context:
-  version: "4.23.2"
+  version: "4.24.0"
 
 package:
   name: gh-dash
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/dlvhdr/gh-dash/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: aef43a5998fa16447a832797484984ed8894b65c94acebc17f8210c2b3b4b687
+    sha256: a80305a26c066741e311f51715eace55e2ae10e14a1aeb144e4ff14edbedf163
     target_directory: src
   - if: win
     then:
