@@ -3,25 +3,6 @@ About gh-dash-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gh-dash-feedstock/blob/main/LICENSE.txt)
 
-
-About gh-dash
--------------
-
-Home: https://github.com/dlvhdr/gh-dash
-
-Package license: MIT
-
-Summary: Summary of the package.
-
-Development: https://github.com/dlvhdr/gh-dash
-
-Documentation: https://pkg.go.dev/github.com/dlvhdr/gh-dash
-
-Description of the package
-
-About gh-dash
--------------
-
 Home: https://github.com/dlvhdr/gh-dash
 
 Package license: MIT
