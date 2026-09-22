@@ -3,6 +3,25 @@ About gh-dash-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gh-dash-feedstock/blob/main/LICENSE.txt)
 
+
+About gh-dash
+-------------
+
+Home: https://github.com/dlvhdr/gh-dash
+
+Package license: MIT
+
+Summary: Summary of the package.
+
+Development: https://github.com/dlvhdr/gh-dash
+
+Documentation: https://pkg.go.dev/github.com/dlvhdr/gh-dash
+
+Description of the package
+
+About gh-dash
+-------------
+
 Home: https://github.com/dlvhdr/gh-dash
 
 Package license: MIT
@@ -47,10 +66,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64</td>
+              <td>osx_arm64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27363&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gh-dash-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gh-dash-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr>
@@ -78,31 +97,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `gh-dash` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install gh-dash
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install gh-dash
 ```
 
-It is possible to list all of the versions of `gh-dash` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add gh-dash
+# for installing globally
+pixi global install gh-dash
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `gh-dash` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search gh-dash --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search gh-dash --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search gh-dash --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -114,6 +175,8 @@ mamba repoquery whoneeds gh-dash --channel conda-forge
 # List dependencies of `gh-dash`:
 mamba repoquery depends gh-dash --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
